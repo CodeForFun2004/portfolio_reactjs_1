@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+==> After Installing all the packages, we can start making our Website. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Import "BrowserRouter" for the Navbar
 
-## Available Scripts
+2. Create "Component"
 
-In the project directory, you can run:
+3. Import all the Components in the App.js
 
-### `npm start`
+4. Import {Routes, Route, Redirect} for Navigation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5. Use them in the App.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+6. Components are integrated SUCCESSFULLY
 
-### `npm test`
+7. Now its time for the design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8. For Designing we use bootstrap 5
 
-### `npm run build`
+9. Import Navlink
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+10. Replace a with Navlink and href with to.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+11. Header Componet is Ready (After we modify navbar-dark bg-primary and ms-auto)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+12. Now Design Other Components
 
-### `npm run eject`
+13. For images, I have created a folder named "assets" and further folder named "images"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+14. Now Import the Images
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+15. HomePage is ready
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+16. Our About Page is Ready
+    Now add About Component in HomePage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+17. Now Create Service Page
 
-## Learn More
+18. Now we have to show our Services in Card
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+19. Now you have 2 options
++) You can add cards Manually one by one
++) Simple create array and run them automatically(option 2)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+20. I have already created the array of the objects and export them
 
-### Code Splitting
+21. Now in order to use this, we need to import
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+22. map() is the function which fetch object in array one by one. Just like for Function but better
 
-### Analyzing the Bundle Size
+23. Now we need to define the function card
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+24. Now add Service Component in HomePage
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+25. Now Create Contact Component

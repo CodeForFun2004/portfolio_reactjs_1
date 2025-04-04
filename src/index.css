@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Định nghĩa .pro bên About.jsx */
+.pro{
+  position: absolute;
+  padding: 5px;
+  color: white;
+}
+
+.progress{
+  min-height: 30px ;  
+  /* dùng min-height hoặc height: 30px !important; để ko bị mặc định của bootstrap */
+  transition: 0.5s ease;
+}
+
+
+.progress:hover{
+  transform: scale(1.1);
+}
+
+/* Cards */
+.card img{
+  width:150px;
+  height: 150px;
+  background-color: white;
+}
+
+.card{
+  transition: 0.5s ease;
+}
+
+.card:hover{
+  background-color: #0D6EFD;
+  color: white;
+  box-shadow: 5px 5px 10px #2379f8;
+  cursor: pointer;
+}
