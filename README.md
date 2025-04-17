@@ -52,3 +52,9 @@
 24. Now add Service Component in HomePage
 
 25. Now Create Contact Component
+
+
+**** NOTE DEPLOY GITHUB****
+1. Xem vid: https://www.youtube.com/watch?v=7wzuievFjrk
+2. Make repo in Github
+3. Add properties "homepage" and "predeploy" to package.json
